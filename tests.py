@@ -23,6 +23,7 @@ class TestBooksCollector:
         # словарь books_rating, который нам возвращает метод get_books_rating, имеет длину 2
         assert len(collector.get_books_rating()) == 2
         
+<<<<<<< HEAD
     #тестирование добавления двух книг
     def test_add_new_book_add_two_books_clone(self):
         collector = BooksCollector()
@@ -197,6 +198,9 @@ class TestBooksCollectorr:
         #Проверяем что после удаления книг осталось 0
         assert len(self.collector.get_list_of_favorites_books()) == 0
         
+=======
+
+>>>>>>> main
     
         
         
